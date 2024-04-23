@@ -7,10 +7,11 @@ import java.util.concurrent.Future;
 public class CompletableFutureExample {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         CompletableFutureExample example = new CompletableFutureExample();
         System.out.println("Start");
         Future<String> completableFuture = example.getFuture();
+        Thread.currentThread().sleep(1000L);
         System.out.println("getFuture has been called");
         String result;
         try {
