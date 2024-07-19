@@ -3,7 +3,7 @@ package org.example.structures;
 
 import java.util.random.RandomGenerator;
 
-// add my own version for stack, queue, dequeue, priorityQueue, binary tree
+
 public class Stack {
 
     private int[] internalArray;
