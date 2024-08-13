@@ -8,6 +8,7 @@ public class Main {
         incAndGet();
     }
 
+    // графы p. 643
     private static void incAndGet() {
         Counter counter = new Counter();
         for (int i = 0; i < 30; i++) {
